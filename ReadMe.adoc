@@ -10,7 +10,7 @@ This simple project lets you control a non-adressable LED strip from your phone 
 
 == Installation
 
-1. Set up a project on Arduino Cloud @ app.arduino.cc
+1. Set up a project on Arduino Cloud @ https://app.arduino.cc
 2. Create a Thing and use the files in this repo, change them as you like
 3. Set up a Dashboard to control the variables in the code
 3. Release to the World!
