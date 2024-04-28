@@ -1,0 +1,47 @@
+:Author: JuiceAndTheJoe
+:Email: esvela02@gmail.com
+:Date: 28/04/2024
+:Revision: version#1
+:License: Public Domain
+
+= Project: {Remote LED Control}
+
+This simple project lets you control a non-adressable LED strip from your phone or computer through the Arduino Cloud IoT platform.
+
+== Installation
+
+1. Set up a project on Arduino Cloud @ app.arduino.cc
+2. Create a Thing and use the files in this repo, change them as you like
+3. Set up a Dashboard to control the variables in the code
+3. Release to the World!
+
+== Assembling the circuit
+
+I used an Arduino Nano ESP32 (https://store.arduino.cc/products/nano-esp32) and an NMOS transistor to power an analog (non-adressable) 12V LED light strip. The lights are connected to a regular power outlet but have the transistor act as a middleman dictating the voltage coming to the LED strip.
+
+=== Folder structure
+
+....
+ remote-led-control                => Arduino sketch folder
+  ├── main.ino       => main Arduino file
+  ├── thingProperties.h   => project header file
+  └── ReadMe.adoc         => this file
+....
+
+=== License
+
+
+=== BOM
+Bill of Materials used in this project
+|===
+| ID | Part name          | Part number | Quantity
+| R1 | 10k Resistors      | 1234-abcd   | ?       
+| L1 | Analog LED strip   | various     | 1
+| A1 | Arduino Nano ESP32 | ABX00092    | 1        
+|===
+
+
+=== Help
+This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
+If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
+or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
